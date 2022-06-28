@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".StartHR.StartHRActivity"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_boxedEdges="none">
+
+        <LinearLayout
+            android:id="@+id/llHR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivHeart"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="3dp"
+                android:src="@drawable/ic_baseline_favorite_24"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tvHR"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+
+                android:text="@string/dash"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/text_margin_start"
+            android:layout_marginEnd="@dimen/text_margin_start"
+            android:gravity="center"
+            android:text="@string/start_hr_mea"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/ivGraph"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn"
+            android:layout_below="@+id/llHR"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_favorite_24"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvStatic"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_baseline_arrow_downward_24"
+            android:tint="@color/colorPrimary" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/btn"
+            android:layout_below="@+id/tvStatic"
+            android:layout_centerHorizontal="true"
+            android:progressTint="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_border_primary"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            tools:text="Start" />
+
+    </RelativeLayout>
+</androidx.wear.widget.BoxInsetLayout>

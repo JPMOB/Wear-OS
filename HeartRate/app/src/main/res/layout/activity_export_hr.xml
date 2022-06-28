@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".StartHR.StartHRActivity"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_boxedEdges="none">
+
+
+        <TextView
+            android:id="@+id/tvStatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/text_margin_start"
+            android:layout_marginEnd="@dimen/text_margin_start"
+            android:gravity="center"
+            android:text="@string/export_hr_mea"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_below="@+id/tvStatic"
+            android:layout_above="@+id/btn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:visibility="gone"
+            android:progressTint="@color/white"
+            android:layout_centerHorizontal="true"
+             />
+
+
+        <ImageView
+            android:id="@+id/ivCardio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:tint="@color/colorPrimary"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:src="@drawable/cardiogram"
+            android:paddingBottom="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            tools:text="Confirm" />
+        <TextView
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_border_primary"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            tools:text="Confirm" />
+
+    </RelativeLayout>
+</androidx.wear.widget.BoxInsetLayout>
