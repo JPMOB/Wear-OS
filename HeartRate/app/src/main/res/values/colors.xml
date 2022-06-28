@@ -15,4 +15,6 @@
     <color name="dark_gray">#A4A5A7</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="background">#000000</color>
+    <color name="digital_text">#ffffff</color>
 </resources>
