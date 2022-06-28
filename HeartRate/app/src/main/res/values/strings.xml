@@ -7,7 +7,11 @@
     <string name="action_three">Action 3</string>
     <string name="action_measure_hr">Measure HR</string>
     <string name="action_export_hr">Export HR</string>
+    <string name="saving_data">Saving HR data …</string>
+
     <string name="exporting_data">Exporting data as .csv …</string>
+    <string name="exported_successfully">Successfully exported HR data!</string>
+
 
     <string name="start_hr_mea">Start Continuous heart rate measurements</string>
     <string name="export_hr_mea">All HR data will be exported to a public folder and then removed</string>
@@ -16,5 +20,7 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="Confirm">Confirm</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_digital_name">My Digital</string>
 
 </resources>

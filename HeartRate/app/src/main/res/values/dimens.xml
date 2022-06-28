@@ -12,4 +12,18 @@
     inner_frame_layout_padding (below variable) on round screens.
     -->
     <dimen name="inner_frame_layout_padding">5dp</dimen>
+    <dimen name="text_margin_start">5dp</dimen>
+    <dimen name="digital_text_size">35dp</dimen>
+    <dimen name="digital_text_size_round">35dp</dimen>
+
+    <dimen name="digital_text_size_for_date">12dp</dimen>
+    <dimen name="digital_text_size_round_for_date">12dp</dimen>
+
+    <dimen name="digital_x_offset">15dp</dimen>
+    <dimen name="digital_x_offset_round">25dp</dimen>
+    <dimen name="digital_y_offset">140dp</dimen>
+    <dimen name="digital_y_offset_for_date">160dp</dimen>
+    <dimen name="digital_x_offset_round_date">85dp</dimen>
+    <dimen name="digital_x_offset_date">90dp</dimen>
+
 </resources>
