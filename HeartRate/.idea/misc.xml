@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/drawable/bg_border_outline.xml" value="0.137" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/drawable/bg_border_primary.xml" value="0.137" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml" value="0.1395" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/layout/activity_export_hr.xml" value="0.6067708333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/layout/activity_start_hr.xml" value="0.5097087378640777" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/My_Own_Creation/HeartRate/app/src/main/res/layout/list_item.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
